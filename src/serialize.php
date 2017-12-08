@@ -441,3 +441,4 @@ class serialize {
 		return $same;
 	}
 }
+

@@ -3,12 +3,6 @@ error_reporting(E_ALL);
 ini_set('display_errors','on');
 include __DIR__.'/../src/serialize.php';
 
-$test=new DateTime();
-$datee=var_export($test,true);
-echo htmlentities($datee);
-echo eval('$date='.$datee.';');
-print_r($date);
-
 class foo {
 	var $data='data';
 }
